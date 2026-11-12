@@ -23,6 +23,6 @@ para cada srr en lista_sr:
   Convierte .sra a FASTQ y guarda en carpeta_fastq
 
   Comprimir todos los FASTQ en un gzip  
-    # Obtienes un SRRxxxx.fastq.gz
+    # Obtienes un SRRxxxx_1.fastq.gz y un SRRxxx_2.fastq.gz (porque son PAIRED)
     # Esto es lo que luego se usara para hacer quality assessment
  
