@@ -8,4 +8,6 @@ Los integrantes que formamos el grupo 25 y nuestros usuarios son:
 | Uxue Lahidalga Perez de San Roman | lahidalgauxue                   | 
 | Xenia Yan Hueso Espinosa          | xehues                          | 
 | Roberto Saiz Fernandez            | robertosfasturias-crypto        | 
-| Sergio Revuelto Gil               | sergiorevu                      | 
+| Sergio Revuelto Gil*              | sergiorevu                      | 
+
+* No finalizó la actividad por asuntos personales. 
