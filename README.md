@@ -54,12 +54,18 @@ La organización del repositorio sigue la siguiente estructura  que permite sepa
 
 RNAseq-Gene-Expression-Analysis/ 
 ├── README.md 
+
 ├── LICENSE 
+
 │ 
 ├── data/ 
+
 │   ├── raw_data/ 
+
 │   │   └── README.md 
+
 │   └── processed_data/ 
+
 │       └── README.md 
 ├── scripts/ 
 │   ├── 1_control_calidad/ 
