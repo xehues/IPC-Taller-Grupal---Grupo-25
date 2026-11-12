@@ -52,12 +52,14 @@ Para utilizar este repositorio y reproducir el flujo de trabajo, es necesario di
 ## Estructura del repositorio
 La organización del repositorio sigue la siguiente estructura  que permite separar los datos originales, los datos procesados, los scripts de análisis, los resultados y la documentación:
 
-RNAseq-Gene-Expression-Analysis/ 
+RNAseq-Gene-Expression-Analysis/
+
 ├── README.md 
 
 ├── LICENSE 
 
 │ 
+
 ├── data/ 
 
 │   ├── raw_data/ 
@@ -67,32 +69,59 @@ RNAseq-Gene-Expression-Analysis/
 │   └── processed_data/ 
 
 │       └── README.md 
+
 ├── scripts/ 
+
 │   ├── 1_control_calidad/ 
+
 │   │   ├── 1_control_calidad.sh 
+
 │   │   └── README.md 
+
 │   ├── 2_alineamiento/ 
+
 │   │   ├── 2_alineamiento.sh 
+
 │   │   └── README.md 
+
 │   ├── 3_cuantificacion/ 
+
 │   │   ├── 3_cuantificacion.sh 
+
 │   │   └── README.md 
+
 │   ├── 4_expresion_diferencial/ 
+
 │   │   ├── 4_expresion_diferencial.R 
+
 │   │   └── README.md 
+
 │   └── 5_visualizacion/ 
+
 │       ├── 5_visualizacion.R 
+
 │       └── README.md
+
 ├── results/ 
+
 │   ├── README.md 
+
 │   ├── alignment_statistics.txt 
+
 │   ├── gene_counts.csv 
+
 │   ├── differential_expression_results.csv 
+
 │   ├── pca_plot.png 
+
 │   └── volcano_plot.png  
+
 └── docs/ 
+
     ├── workflow.md 
+    
     ├── project_description.md 
+    
     └── team_members.md
 
 ## Resultados que esperamos
