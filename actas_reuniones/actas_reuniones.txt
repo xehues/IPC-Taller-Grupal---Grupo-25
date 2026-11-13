@@ -1,0 +1,49 @@
+REUNIÓN 1: Llamada de Whatsapp 09/11/2026 . 20 min
+- Atendió: 
+	Rafael, Sara, Uxue, Alexanda, Sergio y Xenia (todo el grupo)
+
+- Qué se trata:
+	Presentación 
+	Conocimientos previos sobre GitHub	
+
+- Para la próxima sesión:
+	Se habla de pensar un poco en el proyecto y compartir un documento para hacer lluvia de ideas
+
+--------------------------------------------------------
+
+REUNIÓN 2: Llamada en Teams 10/11/2026 - 30 min
+Atendió: 
+	Rafael, Uxue, Alexanda y Xenia (Sara menciona sus ideas por whatsapp)
+
+- Qué se trata:
+	Se presenta un esquema base de las carpetas que podría tener el repositorio.
+	Se mencionan los pasos clave de un estudio de Rnaseq
+
+- Para la próxima sesión:
+	Completar el esquema y distribuir las tareas
+
+--------------------------------------------------------
+
+REUNIÓN 3: Llamada en Teams 11/11/2026 - 1h
+Atendió: 
+	Rafael, Sara, Uxue, Alexanda y Xenia 
+
+- Qué se trata:
+	Se acepta el esquema, se generan las carpetas y se hacen las primeras modificaciones (commits y pull requests) en el repositorio
+	Se distribuyen las tareas
+
+- Para la próxima sesión: 
+	Completar las tareas individuales para la próxima reunión
+
+--------------------------------------------------------
+SERGIO SALIO DEL GRUPO :C
+--------------------------------------------------------
+
+REUNIÓN 4: Llamada en Teams 12/11/2026 - 
+Atendió:
+	d
+
+- Qué se trata:
+	d
+
+- Para la próxima sesión:
