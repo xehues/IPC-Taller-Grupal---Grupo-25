@@ -1,28 +1,19 @@
-# 1. Configuracion: 
-lista_srr = "config/SRR_Acc_List.txt" # para encontrar el SRR_Acc_List.txt
-carpeta_sra = "data/raw/sra/" # para guardar los .sra, si no existe
-carpeta_fastq = "data/raw/" # para guardar los .fastq.gq
+# DESCARGA DE DATOS 
+'''
+Después de clonar el repositorio en tu maquina virtual, primero se ejectua 0_descarga_datos.sh
+'''
+INICIO
+  Mostrar un mensaje de inicio descarga de datos
+  Definir la ruta al archivo "SRR_Acc_List.txt": lista_srr. Ej: "config/SRR_Acc_List.txt" 
+  Definir los directorios donde se guardaran los datos .sra (carpeta_sra) y los .fastq.gz (carpeta_fastq): ej: "data/raw/sra/" y "data/raw/"
 
-# 2. Comprobar si las carpetas existen y crearlas
-si carpeta_sra no existe: 
-  crear carpeta_sra
+  Revisar si las carpetas y directorios existen. Si no, crearlos. 
+  Revisar si tienes instaladas las herramientas necesarias. Si no, mandar un aviso al usuario. 
 
-si carpeta_fastq no existe:
-  crear carpeta_fastq
+  PARA CADA srr de la lista_srr
+    busca el archivo en SRA y descargalo/guardalo en carpeta_sra. Ej: SRR1234567.sra
+    convierte el .sra recien creado a .fastq, obteniendo 2 veriones (R1 (para la lecutra forward) y R2 (para la reverse)), y guardalo en carpeta_fastq. Ej: SRR1234567_R1.fastq y SRR1234567_R2.fastq
+    comprime los .fastq en un gzip. Ej: Ej: SRR1234567_R1.fastq.gz y SRR1234567_R2.fastq.gz
 
-# 3. Comprbar que hay una lista de accessino
-si lista_srr no existe:
-  mostrar("ERROR: falta la lista de accesos")
-  salir
-
-# 4. Bucle que itera por cada SRR de la SRR_Acc_List.txt
-para cada srr en lista_sr:
-  descarga el archivo .sra en carpeta_sra 
-    # va a SRA, busca el numero de accesion, y lo descarga en carpeta_sra 
-
-  Convierte .sra a FASTQ y guarda en carpeta_fastq
-
-  Comprimir todos los FASTQ en un gzip  
-    # Obtienes un SRRxxxx_1.fastq.gz y un SRRxxx_2.fastq.gz (porque son PAIRED)
-    # Esto es lo que luego se usara para hacer quality assessment
- 
+  Mostrar un mensaje de fin de la descarga
+FIN
