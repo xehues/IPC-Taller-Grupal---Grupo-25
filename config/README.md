@@ -1,0 +1,1 @@
+Para hacer el ejemplo más realista, se seleccionaron las muestras del proyecto real titulado *"UTX and 53BP1 co-regulate genetic programs for neural differentiation of human embryonic stem cells [RNA-seq]"* con GEO Accession Number GSE108115.
