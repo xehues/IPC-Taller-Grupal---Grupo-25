@@ -1,0 +1,3 @@
+Alineamiento: Comparación de las secuencias limpias con un genoma de referencia para saber a qué parte del ADN/ARN pertenecen. 
+Programas: Alineamiento global (EMBOSS Needle O MAFFT) y alineamiento local (BLAST)...
+Salida: Archivos alineados (.bam) en data/processed_data/ y resumen en results/alignment_statistics.txt.
