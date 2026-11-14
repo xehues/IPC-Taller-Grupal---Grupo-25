@@ -154,6 +154,7 @@ RNAseq-Gene-Expression-Analysis/
 
     └── team_members.md
 
+
 ## Resultados que esperamos
 Al finalizar el flujo de trabajo RNA-Seq, se espera obtener los siguientes resultados:
 
