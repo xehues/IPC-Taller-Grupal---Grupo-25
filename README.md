@@ -147,11 +147,12 @@ RNAseq-Gene-Expression-Analysis/
 │ 
 
 └── docs/ 
-    ├── workflow.md 
 
-    ├── project_description.md 
+│   ├── workflow.md 
 
-    └── team_members.md
+│   ├── project_description.md 
+
+│   └── team_members.md
 
 
 ## Resultados que esperamos
