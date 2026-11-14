@@ -12,7 +12,7 @@ Guardar los resultados intermedios en data/assembly/spades_out
 Guardar los resultados del ensamblaje en data/assembly como "assembly.fasta" 
 
 Evaluar la calidad del ensamblaje (Ejectuar QUAST, o algo similar)
-    Guardar el informe en la carpeta de results/assembly_qc
+    Guardar el informe en la carpeta de results
 
 Mostrar un mensaje de fin del ensamblaje de secuencias
 FIN
