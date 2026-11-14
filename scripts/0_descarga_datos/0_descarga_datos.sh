@@ -13,7 +13,7 @@ INICIO
   PARA CADA srr de la lista_srr
     busca el archivo en SRA y descargalo/guardalo en carpeta_sra. Ej: SRR1234567.sra
     convierte el .sra recien creado a .fastq, obteniendo 2 veriones (R1 (para la lecutra forward) y R2 (para la reverse)), y guardalo en carpeta_fastq. Ej: SRR1234567_R1.fastq y SRR1234567_R2.fastq
-    comprime los .fastq en un gzip. Ej: Ej: SRR1234567_R1.fastq.gz y SRR1234567_R2.fastq.gz
+    comprime los .fastq en un gzip. Ej: SRR1234567_R1.fastq.gz y SRR1234567_R2.fastq.gz
 
   Mostrar un mensaje de fin de la descarga
 FIN

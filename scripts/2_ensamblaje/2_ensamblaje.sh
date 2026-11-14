@@ -2,14 +2,17 @@
 INICIO
 Mostrar un mensaje de inicio del ensamblaje de secuencias
 
-Acceder a data/processed_data/ donde estan los SRRxxxx_R1_filtered.fastq.gz y SRRxxxx_R2_filtered.fastq.gz
+Definir el directorio a los datos procesados data/processed_data/ , donde estan los SRR1234567_processed_R1.fastq.gz y SRR1234567_processed_R2.fastq.gz
+Definir el directorios donde se guardaran los resultados del ensamblaje y de la calidad del ensamblaje
 
-PARA cada SRR
-    Ejectuar una herramienta que ensamble secuencias (SPAdes o Unicycler )
-FIN bucle PARA
+Juntar todas las lecturas R1 en un archivo o lista y también todas lecturas R2 en otro archivo o lista (esto será el input de la herramienta)
 
-Evaluar la calidad del ensamblaje (Ejectuar QUAST)
-    Guardar el informe en la carpeta de resultados
+Ensamblar todas las muestras: Ejecutar una herramienta como SPAdes, Flye o Unicycler (en funcion de la longitud y naturaleza de las secuencias)
+Guardar los resultados intermedios en data/assembly/spades_out
+Guardar los resultados del ensamblaje en data/assembly como "assembly.fasta" 
+
+Evaluar la calidad del ensamblaje (Ejectuar QUAST, o algo similar)
+    Guardar el informe en la carpeta de results/assembly_qc
 
 Mostrar un mensaje de fin del ensamblaje de secuencias
 FIN
