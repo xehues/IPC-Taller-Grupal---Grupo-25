@@ -59,6 +59,6 @@ El orden general de ejecución es el siguiente:
 - Visualización.
   
 ## 4. Organización de los resultados
-Los resultados generados durante el análisis se almacenan en los directorios data/processed_data/ y results/, dependiendo de si se trata de archivos intermedios o resultados finales.
+Los resultados generados durante el análisis se almacenan en los directorios `data/processed_data/` y `results/`, dependiendo de si se trata de archivos intermedios o resultados finales.
 
 Esta organización permite mantener separados los datos originales, los datos procesados, los scripts y los resultados del proyecto.
