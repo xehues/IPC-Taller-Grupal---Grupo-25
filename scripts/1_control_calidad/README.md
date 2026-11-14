@@ -1,4 +1,4 @@
-#Control de Calidad (QC):
+# Control de Calidad (QC):
 
 Revisión de la calidad de las secuencias crudas para detectar errores de secuenciación o adaptadores y realización de la limpieza de secuencias.
 
