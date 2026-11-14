@@ -1,4 +1,4 @@
-# Integrantes del grupo 25
+# 1. Integrantes del grupo 25
 Los integrantes que formamos el grupo 25 y nuestros usuarios son:
 
 |         Nombre - Apellidos        |        Usuarios GitHub          |
@@ -11,3 +11,6 @@ Los integrantes que formamos el grupo 25 y nuestros usuarios son:
 | Sergio Revuelto Gil*              | sergiorevu                      | 
 
 * No finalizó la actividad por asuntos personales. 
+
+# 2. Distribución del trabajo
+Las diferentes tareas se han distribuido entre los integrantes para facilitar el desarrollo de las distintas etapas del análisis. El desarrollo del proyecto se ha basado en el trabajo colaborativo, la coordinación entre los integrantes y la integración de las diferentes etapas del flujo de trabajo bioinformático.
