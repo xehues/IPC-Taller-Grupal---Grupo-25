@@ -52,42 +52,106 @@ Para utilizar este repositorio y reproducir el flujo de trabajo, es necesario di
 ## Estructura del repositorio
 La organización del repositorio sigue la siguiente estructura  que permite separar los datos originales, los datos procesados, los scripts de análisis, los resultados y la documentación:
 
-RNAseq-Gene-Expression-Analysis/
+RNAseq-Gene-Expression-Analysis/ 
+
+│ 
 
 ├── README.md 
+
 ├── LICENSE 
+
 │ 
+
 ├── data/ 
+
 │   ├── raw_data/ 
+
 │   │   └── README.md 
+
+│   │ 
+
 │   └── processed_data/ 
+
 │       └── README.md 
+
+│ 
+
 ├── scripts/ 
+
+│   │ 
+
 │   ├── 1_control_calidad/ 
+
 │   │   ├── 1_control_calidad.sh 
+
 │   │   └── README.md 
-│   ├── 2_alineamiento/ 
-│   │   ├── 2_alineamiento.sh 
+
+│   │ 
+
+│   ├── 2_ensamblaje/ 
+
+│   │   ├── 2_ensamblaje.sh 
+
 │   │   └── README.md 
-│   ├── 3_cuantificacion/ 
-│   │   ├── 3_cuantificacion.sh 
+
+│   │ 
+
+│   ├── 3_alineamiento/ 
+
+│   │   ├──3_alineamiento.sh 
+
 │   │   └── README.md 
-│   ├── 4_expresion_diferencial/ 
-│   │   ├── 4_expresion_diferencial.R 
+
+│   │ 
+
+│   ├── 4_cuantificacion/ 
+
+│   │   ├── 4_cuantificacion.sh 
+
 │   │   └── README.md 
-│   └── 5_visualizacion/ 
-│       ├── 5_visualizacion.R 
-│       └── README.md
+
+│   │ 
+
+│   ├── 5_expresion_diferencial/ 
+
+│   │   ├── 5_expresion_diferencial.R 
+
+│   │   └── README.md 
+
+│   │ 
+
+│   └── 6_visualizacion/ 
+
+│       ├── 6_visualizacion.R 
+
+│       └── README.md 
+
+│ 
+
 ├── results/ 
+
 │   ├── README.md 
+
+│   ├── quality_assesment.png 
+
 │   ├── alignment_statistics.txt 
+
 │   ├── gene_counts.csv 
+
 │   ├── differential_expression_results.csv 
+
 │   ├── pca_plot.png 
-│   └── volcano_plot.png  
+
+│   └── volcano_plot.png 
+
+│ 
+
 └── docs/ 
+
     ├── workflow.md 
+
     ├── project_description.md 
+
     └── team_members.md
 
 ## Resultados que esperamos
