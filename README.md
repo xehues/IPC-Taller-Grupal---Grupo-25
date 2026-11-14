@@ -147,7 +147,6 @@ RNAseq-Gene-Expression-Analysis/
 │ 
 
 └── docs/ 
-
     ├── workflow.md 
 
     ├── project_description.md 
