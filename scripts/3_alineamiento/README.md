@@ -4,4 +4,4 @@ Comparación de las secuencias limpias con un genoma de referencia para saber a 
 
 **Programas:** Alineamiento global (EMBOSS Needle O MAFFT) y alineamiento local (BLAST)...
 
-**Salida:** Archivos alineados (.bam) en data/processed_data/ y resumen en results/alignment_statistics.txt.
+**Salida:** Archivos alineados (.bam) en `data/processed_data/` y resumen en `results/alignment_statistics.txt`.
