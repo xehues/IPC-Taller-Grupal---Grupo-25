@@ -7,7 +7,7 @@ INICIO
   Mostrar un mensaje de inicio de alineamiento y mapeo de secuencias
 
   #Proceso de alineamienot y mapeo de secuencias
-  PARA CADA archivo resultante del proceso de control de calidad
+  PARA CADA archivo resultante del proceso de control de calidad y ensamblaje
   
     #Alineamiento
     Ejecutar Alineamiento
