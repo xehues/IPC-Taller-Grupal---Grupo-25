@@ -151,7 +151,9 @@ RNAseq-Gene-Expression-Analysis/
 
 │   └── volcano_plot.png 
 
-│ 
+├── images/ 
+
+│   └── README.md 
 
 └── docs/ 
 
