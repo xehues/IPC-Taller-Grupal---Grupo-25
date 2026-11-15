@@ -1,2 +1,5 @@
-/data/processed_data
+# Teniendo los datos crudos y el assembly, se ignora el rocessed_data porque es un paso intermedio. Y si se necesitara volver a conseguirlo siempre se puede volver a calcular de los datos crudos. 
+data/processed_data/
 
+# Todos los datos intermedios de spades (o la herramienta de ensamblaje) no son necesarios además que ocuparán bastante. Solo improta la secuenica ensamblada. 
+data/assembly/spades_out/
