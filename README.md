@@ -27,18 +27,25 @@ Desarrollar un flujo de trabajo de análisis de expresión génica mediante dato
 ## Flujo de trabajo RNA-Seq
 
 El análisis se organiza en las siguientes etapas:
-1. **Control de calidad**
+1. **Descarga de datos**
+   - Descarga de las lecturas de secuenciación desde una base de datos pública (por ejemplo, NCBI SRA).
+   - Conversión de los archivos descargados al formato FASTQ.
+   - Organización de los datos originales por muestra.
+2. **Control de calidad**
    - Evaluación de la calidad de las lecturas de secuenciación.
    - Detección de adaptadores y posibles errores.
-2. **Alineamiento**
+3. **Ensamblaje**
+   - Reconstrucción de secuencias más largas (transcritos) a partir de las lecturas de RNA-Seq.
+   - Obtención de una representación del transcriptoma para su posterior análisis.
+4. **Alineamiento**
    - Comparación de las lecturas con un genoma de referencia.
    - Obtención de archivos de alineamiento.
-3. **Cuantificación**
+5. **Cuantificación**
    - Cálculo del número de lecturas asociadas a cada gen.
    - Generación de matrices de conteos.
-4. **Expresión diferencial**
+6. **Expresión diferencial**
    - Identificación de genes con cambios significativos de expresión entre grupos experimentales.
-5. **Visualización**
+7. **Visualización**
    - Generación de gráficos para facilitar la interpretación de los resultados.
 
 ## Instrucciones de uso
