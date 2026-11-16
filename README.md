@@ -27,6 +27,7 @@ Desarrollar un flujo de trabajo de análisis de expresión génica mediante dato
 ## Flujo de trabajo RNA-Seq
 
 El análisis se organiza en las siguientes etapas:
+
 0. **Descarga de datos**
    - Descarga de las lecturas de secuenciación desde una base de datos pública (por ejemplo, NCBI SRA).
    - Conversión de los archivos descargados al formato FASTQ.
