@@ -67,26 +67,63 @@ RNAseq-Gene-Expression-Analysis/
 
 ├── LICENSE 
 
+├── .gitignore
+
+│ 
+
+├── actas_reuniones/ 
+
+│   ├── 2026-11-09.md 
+
+│   ├── 2026-11-10.md 
+
+│   ├── 2026-11-11.md 
+
+│   ├── 2026-11-12.md 
+
+│   ├── 2026-11-16.md 
+
+│   └── README.md 
+
+│ 
+
+├── config/ 
+
+│   └── README.md 
+
 │ 
 
 ├── data/ 
 
-│   ├── raw_data/ 
+│   ├──  assembly/
+
+│   │   └── spades_out/ 
+
+│    
+
+│   ├── processed_data/ 
 
 │   │   └── README.md 
 
-│   │ 
+│
 
-│   └── processed_data/ 
+│   └── raw/
 
-│       └── README.md 
+│   │   ├── sra/
 
-│ 
+│   │   └── README.md 
+
+│   
 
 ├── scripts/ 
 
 │   ├── 0_descarga_datos/ 
-│   │ 
+
+│   │   ├── 0_descarga_datos.sh 
+
+│   │   └── README.md 
+
+│    
 
 │   ├── 1_control_calidad/ 
 
@@ -94,7 +131,7 @@ RNAseq-Gene-Expression-Analysis/
 
 │   │   └── README.md 
 
-│   │ 
+│    
 
 │   ├── 2_ensamblaje/ 
 
@@ -102,7 +139,7 @@ RNAseq-Gene-Expression-Analysis/
 
 │   │   └── README.md 
 
-│   │ 
+│    
 
 │   ├── 3_alineamiento/ 
 
@@ -110,7 +147,7 @@ RNAseq-Gene-Expression-Analysis/
 
 │   │   └── README.md 
 
-│   │ 
+│   
 
 │   ├── 4_cuantificacion/ 
 
@@ -118,7 +155,7 @@ RNAseq-Gene-Expression-Analysis/
 
 │   │   └── README.md 
 
-│   │ 
+│   
 
 │   ├── 5_expresion_diferencial/ 
 
@@ -126,39 +163,29 @@ RNAseq-Gene-Expression-Analysis/
 
 │   │   └── README.md 
 
-│   │ 
+│   
 
 │   └── 6_visualizacion/ 
 
-│       ├── 6_visualizacion.R 
+│   │   ├── 6_visualizacion.R 
 
-│       └── README.md 
+│   │   └── README.md 
 
-│ 
+│  
 
 ├── results/ 
 
-│   ├── README.md 
+│   └── README.md 
 
-│   ├── quality_assesment.png 
-
-│   ├── alignment_statistics.txt 
-
-│   ├── gene_counts.csv 
-
-│   ├── differential_expression_results.csv 
-
-│   ├── pca_plot.png 
-
-│   └── volcano_plot.png 
-
-│
+│   
 
 ├── images/ 
 
-│   └── README.md 
+│   ├── PCA.png
 
-│
+│   ├── README.md 
+
+│   └── vp2.png
 
 └── docs/ 
 
